@@ -53,3 +53,9 @@ function score(){
    document.getElementById("message").innerHTML = messages;
    document.getElementById("number_correct").innerHTML = "You got " + correct + " correct";
  };
+
+ $(document).ready(function() {
+   $('#submitButton').click(function() {
+     $('#form-table').hide();
+   });
+ });
