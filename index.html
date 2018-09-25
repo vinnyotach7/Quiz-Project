@@ -1,0 +1,111 @@
+
+<!DOCTYPE HTML>
+<head>
+  <meta charset="utf-8">
+
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Quiz Project</title>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <form id="quiz" action="index.html" name="quiz" method="POST">
+  <div id="Questions">
+    <h1>Quiz Board!</h1>
+    <img src="http://www.thebikecomesfirst.com/wp-content/uploads/2018/01/quiz_150908823.jpg">
+
+    <h2 class="quizHeader">Answer the correct answer!</h2>
+    <table style="width:583px">
+     <tr>
+        <td>
+      <div>
+      <p class="question">1. Which one of these is not an arithmetic operation #1</p>
+
+      <ul>
+      <input class="answer" type="radio" name="question1" value="+">+<br>
+        <input class="answer" type="radio" name="question1" value="-">-<br>
+        <input class="answer" type="radio" name="question1" value="%">%<br>
+        <input class="answer" type="radio" name="question1" value="=">=<br>
+      </ul>
+    </div>
+  </td>
+  <td>
+   <div>
+     <p class="question">2. Which one of these is not a method! #2</p>
+
+       <ul>
+       <input class="answer" type="radio" name="question2" value="Console.log">Console.log<br>
+       <input class="answer" type="radio" name="question2" value=".toFixed">.toFixed<br>
+       <input class="answer" type="radio" name="question2" value=".toString">.toString<br>
+       <input class="answer" type="radio" name="question2" value="myNumber">myNumber<br>
+        </ul>
+      </div>
+     </td>
+   </tr>
+   <td>
+ <div>
+ <p class="question">3. Which one of these is not a function! #3</p>
+
+    <ul>
+      <input class="answer" type="radio" name="question3" value="alert">alert<br>
+      <input class="answer" type="radio" name="question3" value="prompt">prompt<br>
+      <input class="answer" type="radio" name="question3" value="confirm">confirm<br>
+      <input class="answer" type="radio" name="question3" value="string">string<br>
+    </ul>
+   </div>
+  </td>
+  <td>
+   <div>
+     <p class="question">4. Which one of these is not a control flow! #4</p>
+
+       <ul>
+       <input class="answer" type="radio" name="question4" value="if">if<br>
+       <input class="answer" type="radio" name="question4" value="else">else<br>
+       <input class="answer" type="radio" name="question4" value="else..if">else..if<br>
+       <input class="answer" type="radio" name="question4" value="Dom">Dom<br>
+        </ul>
+      </div>
+     </td>
+   </tr>
+   <td>
+ <div>
+ <p class="question">5. Which one of these is not a git command! #5</p>
+
+    <ul>
+      <input class="answer" type="radio" name="question5" value="mkdir">mkdir<br>
+      <input class="answer" type="radio" name="question5" value="cd">cd<br>
+      <input class="answer" type="radio" name="question5" value="git add">git add<br>
+      <input class="answer" type="radio" name="question5" value="undefined">undefined<br>
+    </ul>
+   </div>
+  </td>
+  <td>
+<div>
+<p class="question">6. Which one of these is not a array method! #6</p>
+
+   <ul>
+     <input class="answer" type="radio" name="question6" value=".pop">.pop<br>
+     <input class="answer" type="radio" name="question6" value=".reverse">.reverse<br>
+     <input class="answer" type="radio" name="question6" value=".push">.push<br>
+     <input class="answer" type="radio" name="question6" value=".parseInt">.parseInt<br>
+   </ul>
+  </div>
+ </td>
+</tr>
+  </table>
+ </br>
+    <div class="submitter">
+           <input class="quizSubmit" id="submitButton"
+           type="button" value="SUBMIT" onclick="score();"/>
+     </div>
+     <div>
+      <p id="message"></p>
+      <p id="number_correct"></p>
+    </div>
+</form>
+
+   <!--show score upon submit-->
+
+
+   </body>
+   </html>
