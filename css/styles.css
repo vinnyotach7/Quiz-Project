@@ -64,7 +64,7 @@ input.quizSubmit[type="submit"]:hover {
 }
 
 table {
-  background-color: green;
+  background-color: #blue;
 	  border:1px solid #BDBDBD;
   border-radius:5px;
   padding:10px;
@@ -72,7 +72,7 @@ table {
   box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
 }
 body{
-  background-image: url(https://www.planwallpaper.com/static/images/Wallpapers-for-Background-HD-Wallpaper-1080x607.jpg);
+  background-image: url(http://bdfjade.com/data/out/73/5789229-hd-background-images.jpg);
 }
 h1{
   color:#FF69B4;
@@ -83,10 +83,6 @@ h1{
 header{
   text-align: center;
 }
-
-#after_submit{
-  background: blue;
-  font-size: 30px;
-  float: left;
-  font-color: blue;
+div.post {
+  background-color: #ffffff;
 }
