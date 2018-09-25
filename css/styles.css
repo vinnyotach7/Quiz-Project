@@ -64,7 +64,7 @@ input.quizSubmit[type="submit"]:hover {
 }
 
 table {
-  background-color: #00FFFF;
+  background-color: #green;
 	  border:1px solid #BDBDBD;
   border-radius:5px;
   padding:10px;
@@ -72,7 +72,8 @@ table {
   box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
 }
 body{
-  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Download-hd-wallpaper-Cars-free.jpg);
+  background-image: url("http://bdfjade.com/data/out/73/5789229-hd-background-images.jpg");
+  background-color: maroon;
 }
 h1{
   color:#FF69B4;
@@ -82,4 +83,7 @@ h1{
 }
 header{
   text-align: center;
+}
+div.post {
+  background-color: #ffffff;
 }
